@@ -1,42 +1,28 @@
 package com.tsi.duff.callum;
 
-public abstract class Animal {
-    ////////////////////////////////////Attributes///////////////////////////////////
+public class Animal {
     private int age;
+    private String name;
 
-
-
-    ////////////////////////////////////Constructors/////////////////////////////////
-
-
-
-
-
-
-    /////////////////////////////////////Methods/////////////////////////////////////
-    public abstract void eat(String food);
-
-    public void sleep(int time){
-        //this.wait(time);
+    public Animal() {
+        age = 19;
     }
 
-    public abstract Animal reproduce();
+    public void animalEats() {
 
-    public abstract String Breathe();
-
-    public String excrete(){
-        return "poo";
+        System.out.println("I am eating");
     }
 
-    public void die(){
-        //DIE
+    public String setName(String newName) {
+        name = newName;
+        return name;
     }
 
-    public int getAge() {
+    public int setAge() {
         return age;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public int getAge(){
+        return age;
     }
 }
