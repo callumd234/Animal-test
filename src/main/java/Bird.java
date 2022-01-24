@@ -1,3 +1,4 @@
-public abstract class Bird extends com.tsi.duff.callum.Animal {
+package com.tsi.duff.callum;
+public abstract class Bird extends Animal {
 
 }

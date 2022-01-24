@@ -1,18 +1,7 @@
-public abstract class Mammal extends com.tsi.duff.callum.Animal {
+package com.tsi.duff.callum;
+public abstract class Mammal extends Animal {
 
     private int size = 10;
-
-
-
-    /////////////////////////////////Constructors//////////////////////////
-
-
-
-
-
-
-
-    /////////////////////////////////Methods///////////////////////////////
 
     public String Breathe(){
         return "I am breathing";
