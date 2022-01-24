@@ -1,4 +1,4 @@
-package com.tsi.duff.callum.test
+package com.tsi.duff.callum.test;
 public class TestAnimal {
 
 }
