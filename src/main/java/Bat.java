@@ -1,6 +1,6 @@
 package com.tsi.duff.callum;
-public class Bat extends com.tsi.duff.callum.Mammal {
+public class Bat extends Mammal {
 
     private int age;
-    
+
 }
