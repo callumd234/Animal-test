@@ -74,7 +74,7 @@ public class AnimalTest {
     void test_cat_eats(){
         Cat cat3 = new Cat();
         cat3.whatTheCatisEating();
-        assertEquals("I am eating tuna", cat3.whatTheCatisEating(), "The cat is not eating Tuna");
+        assertEquals("I am eating fish", cat3.whatTheCatisEating(), "The cat is not eating fish");
     }
 
     }

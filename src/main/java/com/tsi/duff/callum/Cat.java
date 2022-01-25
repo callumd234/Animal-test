@@ -16,6 +16,6 @@ public class Cat extends com.tsi.duff.callum.Mammal {
     }
 
     public String whatTheCatisEating(){
-        return "I am eating tuna";
+        return "I am eating fish";
     }
     }
