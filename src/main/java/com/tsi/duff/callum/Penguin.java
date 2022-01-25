@@ -1,6 +1,6 @@
 package com.tsi.duff.callum;
 
-public class Penguin extends Bird{
+public abstract class Penguin extends Bird{
 
 
 }
