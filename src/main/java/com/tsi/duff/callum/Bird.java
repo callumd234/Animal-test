@@ -1,5 +1,4 @@
 package com.tsi.duff.callum;
-
-public class FlyingRat
+public abstract class Bird {
 
 }

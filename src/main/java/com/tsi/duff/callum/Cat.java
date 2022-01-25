@@ -1,25 +1,3 @@
 package com.tsi.duff.callum;
 public class Cat extends com.tsi.duff.callum.Mammal {
-
-        ///////////////////////////////////Attributes/////////////////////////////////////////
-
-
-
-
-
-        ///////////////////////////////////Constructors/////////////////////////////////////////
-
-
-
-
-
-        ///////////////////////////////////Methods/////////////////////////////////////////////
-
-        public void eat(String food){
-            this.setSize(this.getSize()+1);
-        }
-
-        public void meow() {
-            System.out.println("Meow!");
-        }
     }
