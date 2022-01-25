@@ -31,7 +31,7 @@ public class CatTest {
     @Test
     public void setCatWeight(){
         Cat cat4 = new Cat();
-        cat4.setCatWeight();
+        cat4.setCatWeight(300);
         assertEquals(300, cat4.getCatWeight(), "the cats weight is wrong");
     }
 

@@ -8,7 +8,7 @@ public class Cat extends com.tsi.duff.callum.Mammal {
 
     /////////////////////constructors///////////////////////////////
     private int age;
-    public int catWeight = 300;
+    public int catWeight;
 
 
 
@@ -31,7 +31,7 @@ public class Cat extends com.tsi.duff.callum.Mammal {
         return "I am eating fish";
     }
 
-    public void setCatWeight(){
+    public void setCatWeight(int catWeight){
         this.catWeight = catWeight;
     }
 
