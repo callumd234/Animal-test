@@ -1,14 +1,15 @@
 package com.tsi.duff.callum;
 
 public class Animal {
+
+
+    ///////attributes///////////////////////////
     private int age;
     private String name;
     private int height;
     private int weight;
 
-    public Animal() {
-    }
-
+////////////////////////methods////////////////////////////////////////
     public void setAge(int age) {
         this.age = age;
     }
@@ -39,5 +40,9 @@ public class Animal {
 
     public void setWeight(int weight){
         this.weight = weight;
+    }
+
+    public void gainWeight(){
+
     }
 }
