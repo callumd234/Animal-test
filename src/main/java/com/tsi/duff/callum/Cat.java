@@ -2,8 +2,6 @@ package com.tsi.duff.callum;
 public class Cat extends com.tsi.duff.callum.Mammal {
 
     private int age;
-    private String awake;
-    private String sleep;
 
     public void setCatAge(int age){
         this.age = age;

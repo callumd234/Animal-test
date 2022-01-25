@@ -9,11 +9,6 @@ public class Animal {
     public Animal() {
     }
 
-    public void animalEats() {
-
-        System.out.println("I am eating");
-    }
-
     public void setAge(int age) {
         this.age = age;
     }
