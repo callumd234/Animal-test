@@ -18,6 +18,14 @@ public class Animal {
         this.age = age;
     }
 
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
+    }
+
     public int getAge(){
         return age;
     }

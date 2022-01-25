@@ -1,5 +1,5 @@
 package com.tsi.duff.callum;
-public abstract class Mammal {
+public abstract class Mammal extends Animal {
 
     private int size = 10;
 
